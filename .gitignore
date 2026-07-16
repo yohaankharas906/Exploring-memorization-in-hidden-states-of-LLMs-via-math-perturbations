@@ -11,12 +11,17 @@ models/
 *.pt
 *.pth
 
-# Datasets and generated model outputs; keep these local unless intentionally published.
-MATH-Perturb/math_perturb/
+# Generated model outputs; keep these local unless intentionally published.
 data/
 datasets/
-results/
+results/*
 *.jsonl
+
+# Published datasets and selected samples.
+!MATH-Perturb/math_perturb/
+!MATH-Perturb/math_perturb/*.jsonl
+!results/
+!results/interesting_samples*.jsonl
 
 # Avoid committing nested repository metadata.
 MATH-Perturb/.git/
