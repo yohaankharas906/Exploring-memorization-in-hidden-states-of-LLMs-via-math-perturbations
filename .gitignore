@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local model weights are too large for GitHub and can be re-downloaded.
+models/
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+
+# Datasets and generated model outputs; keep these local unless intentionally published.
+MATH-Perturb/math_perturb/
+data/
+datasets/
+results/
+*.jsonl
+
+# Avoid committing nested repository metadata.
+MATH-Perturb/.git/
+MATH-Perturb/.git-local-backup/

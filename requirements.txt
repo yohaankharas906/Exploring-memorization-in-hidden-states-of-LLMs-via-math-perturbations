@@ -1,0 +1,5 @@
+huggingface_hub>=0.24
+torch>=2.2
+transformers>=4.37
+safetensors>=0.4
+tqdm>=4.66
