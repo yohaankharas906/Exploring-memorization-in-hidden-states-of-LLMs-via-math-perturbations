@@ -22,6 +22,7 @@ results/*
 !MATH-Perturb/math_perturb/*.jsonl
 !results/
 !results/interesting_samples*.jsonl
+!results/math_perturb_*_qwen.jsonl
 
 # Avoid committing nested repository metadata.
 MATH-Perturb/.git/
